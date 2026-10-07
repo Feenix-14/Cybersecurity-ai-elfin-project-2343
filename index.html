@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CyberGuard AI — Intelligence within. Stronger Security.</title>
+<meta name="description" content="Explore AI and cybersecurity through interactive password and phishing awareness demos.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23091020'/%3E%3Cpath d='M16 5l10 4v8c0 6-10 11-10 11S6 23 6 17V9z' fill='none' stroke='%23c1a1ff' stroke-width='2'/%3E%3C/svg%3E">
+<!-- Bootstrap 5.3: responsive layout and components -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-md wrap" aria-label="Main navigation">
+<a class="navbar-brand logo" href="#home"><img class="brand-image" src="logo (3).png" alt="CyberGuard AI" width="260" height="87"></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon">
+</span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="mainNav">
+<div class="navbar-nav links">
+<a class="nav-link" href="#threats">AI &amp; security</a>
+<a class="nav-link" href="#lab">Interactive lab</a>
+<a class="nav-link" href="#encryption">Encryption</a>
+<a class="nav-link" href="#tips">Safety tips</a>
+</div>
+</div>
+</nav>
+</header>
+<main class="wrap">
+<div class="hero" id="home">
+<div>
+<div class="tag">A smarter digital frontier</div>
+<h1>Intelligence<br>within.<br>
+<span>Threats<br>outside.</span>
+</h1>
+<p class="intro">Understand the threats. Recognise the warning signs. Discover how AI helps protect our digital world.</p>
+<div class="actions">
+<a class="btn" href="#lab">Try the security lab</a>
+<a class="btn secondary" href="#threats">Explore protection</a>
+</div>
+<p class="micro">AI awareness / Human judgement / Digital resilience</p>
+</div>
+<div class="hero-art"><div class="art-caption"><span>NEURAL DEFENCE</span><span>01 / AI CONCEPT</span></div><img src="ai-threat (3).png" alt="Purple neural processor surrounded by a scanning ring" width="1280" height="1280" fetchpriority="high"><div class="art-note"><span class="orb"></span>Pattern recognition. Human verification.</div></div></div>
+<div class="strip"><span class="strip-title">THE DEFENCE<br>PROTOCOL</span>
+<span>
+<strong>01</strong> &nbsp; Understand AI</span>
+<span>
+<strong>02</strong> &nbsp; Spot the risks</span>
+<span>
+<strong>03</strong> &nbsp; Build safer habits</span>
+</div>
+<section id="threats">
+<div class="section-head">
+<div>
+<div class="tag">The digital defence toolkit</div>
+<h2>See beyond the obvious.</h2>
+</div>
+<p>AI can find patterns across large amounts of data, helping security teams investigate threats faster.</p>
+</div>
+<div class="row g-4 cards">
+<div class="col-md-4">
+<article class="card h-100">
+<img class="feature-image" src="ai-threat (3).png" alt="AI threat detection illustration" width="1280" height="1280" loading="lazy">
+<span class="number">01 / DETECT</span>
+<h3>AI threat detection</h3>
+<p>Unusual sign-ins or unexpected network activity can signal a problem. AI helps flag those patterns for investigation.</p>
+</article>
+</div>
+<div class="col-md-4">
+<article class="card h-100">
+<img class="feature-image" src="phishing (1).png" alt="Envelope and magnifying glass representing phishing awareness" width="1280" height="1280" loading="lazy">
+<span class="number">02 / VERIFY</span>
+<h3>Phishing awareness</h3>
+<p>Scam messages often use urgency and impersonation. AI can flag suspicious content, but always verify the sender yourself.</p>
+</article>
+</div>
+<div class="col-md-4">
+<article class="card h-100">
+<img class="feature-image" src="data-protection (3).png" alt="Shield and lock protecting a database" width="1280" height="1280" loading="lazy">
+<span class="number">03 / PROTECT</span>
+<h3>Data protection</h3>
+<p>Security tools can help identify sensitive information and unusual access. Strong permissions and encryption still matter.</p>
+</article>
+</div>
+</div>
+</section>
+</main>
+<div class="lab">
+<section class="wrap" id="lab">
+<div class="section-head">
+<div>
+<div class="tag">Hands-on learning</div>
+<h2>Enter the defence lab.</h2>
+</div>
+<p>Two small challenges. A better understanding of everyday digital safety.</p>
+</div>
+<div class="row g-4 labs">
+<div class="col-lg-6">
+<article class="lab-card h-100">
+<span class="lab-label">01 / PASSWORD CHECK</span>
+<h3>Test a practice password.</h3>
+<p>Demo only. Never enter your real password. This check runs in your browser and sends nothing anywhere.</p>
+<label for="password">Practice password</label>
+<div class="input-row">
+<input class="form-control" id="password" type="password" autocomplete="off" spellcheck="false" placeholder="Enter a made-up example">
+<button class="show" id="show" type="button" aria-pressed="false">Show</button>
+</div>
+<div class="meter progress" role="progressbar" aria-label="Practice password strength" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+<span class="progress-bar" id="bar">
+</span>
+</div>
+<div id="strength" aria-live="polite">Start typing to see the result.</div>
+<p id="hint">Long, unique passwords are a good starting point. A password manager can help.</p>
+<p>This is a simple rule-based estimate, not an AI model or a guarantee of safety.</p>
+</article>
+</div>
+<div class="col-lg-6">
+<article class="lab-card h-100">
+<span class="lab-label">02 / PHISHING CHALLENGE</span>
+<h3>Would you trust this?</h3>
+<p>Read the sample message and choose your response.</p>
+<div class="mail">
+<small>From: support@account-verify.example</small>
+<p>
+<strong>Your account will close in 10 minutes!</strong>
+<br>Reply with your password now to keep your account active.</p>
+</div>
+<div class="choices">
+<button class="btn secondary" id="trust">Trust the message</button>
+<button class="btn" id="flag">Flag as suspicious</button>
+</div>
+<p class="feedback" id="feedback" role="status">Look for urgency, an unfamiliar sender, and requests for secrets.</p>
+</article>
+</div>
+</div>
+</section>
+</div>
+<section class="wrap" id="encryption"><div class="section-head"><div><div class="tag">03 / ENCRYPTION DEMO</div><h2>Same message.<br>A different alphabet.</h2></div><p>Explore the Caesar cipher: shift each letter by a fixed number of positions. This historical cipher is for learning, not protecting real information.</p></div><div class="lab-card cipher-panel"><div class="row g-4"><div class="col-lg-6"><label for="cipherInput">Your practice message</label><textarea class="form-control" id="cipherInput" rows="4" maxlength="2000" spellcheck="false">HELLO CYBERGUARD</textarea><label for="cipherShift">Letter shift: <span id="shiftValue">3</span></label><input class="form-range" id="cipherShift" type="range" min="1" max="25" value="3"><div class="actions"><button class="btn" id="encryptButton" type="button">Encrypt</button><button class="btn secondary" id="decryptButton" type="button">Decrypt</button><button class="btn secondary" id="cipherReset" type="button">Reset</button></div><p>Only English letters change. Capitals, spaces, numbers, and punctuation are preserved. Everything runs in your browser.</p></div><div class="col-lg-6"><span class="lab-label" id="cipherMode">ENCRYPTED MESSAGE</span><div class="cipher-output" id="cipherOutput" role="status" aria-live="polite"></div><div class="cipher-map" aria-label="Example letter mappings"><span id="mapA"></span><span id="mapB"></span><span id="mapZ"></span></div><p id="cipherExplanation"></p><button class="btn secondary" id="useCipherOutput" type="button">Use result as input</button><p class="micro">Try encrypting, then use the result as input and decrypt with the same shift.</p></div></div></div></section>
+<section class="wrap" id="tips">
+<div class="tag">Your everyday defence</div>
+<h2>Small habits. Strong protection.</h2>
+<div class="row g-4 tips">
+<div class="col-sm-6 col-lg-3">
+<article>
+<div class="tip-icon">01</div>
+<h3>Add a second layer</h3>
+<p>Enable two-factor authentication. Prefer an authenticator app or passkey when available.</p>
+</article>
+</div>
+<div class="col-sm-6 col-lg-3">
+<article>
+<div class="tip-icon">02</div>
+<h3>Keep software updated</h3>
+<p>Install updates for your phone, browser, and apps to fix known security weaknesses.</p>
+</article>
+</div>
+<div class="col-sm-6 col-lg-3">
+<article>
+<div class="tip-icon">03</div>
+<h3>Pause before you click</h3>
+<p>Check the actual website address. Open the official app directly when a message feels suspicious.</p>
+</article>
+</div>
+<div class="col-sm-6 col-lg-3">
+<article>
+<div class="tip-icon">04</div>
+<h3>Keep backups</h3>
+<p>Back up important files regularly and keep a separate copy protected from accidental changes.</p>
+</article>
+</div>
+</div>
+</section>
+<footer>
+<div class="wrap foot">
+<span class="logo">CyberGuard<span> AI</span>
+</span>
+<span>AI & Cybersecurity · Designed by Elfin Y</span>
+<span>Learn. Verify. Protect.</span>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+</script>
+
+
+<script src="script.js"></script>
+</body>
+</html>
